@@ -30,6 +30,7 @@ img {
     height: 96px;
     padding: 10px;
     transition: 0.3s;
+    padding-right: 48px;
 }
 img:hover {
     width: 112px;
@@ -44,9 +45,10 @@ img:hover {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    align-content: center;
+    width: 50%;
+    margin: auto;
 }
 
 @-webkit-keyframes gradient {
