@@ -9,7 +9,7 @@ body {
     font-family: "Open Sans Condensed", sans-serif;
     color: whitesmoke;
     background: linear-gradient(316deg, #28007b, #3e4394, #5458ff,#24b7ac, #14424d);
-    background-size: 800% 800%;
+    background-size: 1600% 1600%;
     position: relative;
     -webkit-animation: gradient 18s ease infinite;
     -moz-animation: gradient 18s ease infinite;
@@ -42,12 +42,14 @@ img:hover {
 }
 
 .parent {
+    padding-top: 5%;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 50%;
     margin: auto;
 }
 
